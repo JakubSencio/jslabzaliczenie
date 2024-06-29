@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <style>
+        .note { margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <form id="noteForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <input type="color" id="color">
+        <label>
+            <input type="checkbox" id="pin"> Pin
+        </label>
+        <button type="submit">Add Note</button>
+    </form>
+    <div id="notesContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
